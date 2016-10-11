@@ -15,6 +15,8 @@
 		373293021DAC1C7200DCBEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373293001DAC1C7200DCBEC7 /* LaunchScreen.storyboard */; };
 		3732930D1DAC1C7200DCBEC7 /* KigiEvanChristyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732930C1DAC1C7200DCBEC7 /* KigiEvanChristyTests.swift */; };
 		373293181DAC1C7200DCBEC7 /* KigiEvanChristyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373293171DAC1C7200DCBEC7 /* KigiEvanChristyUITests.swift */; };
+		37DE08B21DAD83E6005ED51B /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DE08B11DAD83E6005ED51B /* Score.swift */; };
+		37DE08B41DAD8A91005ED51B /* ScoreKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DE08B31DAD8A91005ED51B /* ScoreKeeper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		373293131DAC1C7200DCBEC7 /* KigiEvanChristyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KigiEvanChristyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		373293171DAC1C7200DCBEC7 /* KigiEvanChristyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KigiEvanChristyUITests.swift; sourceTree = "<group>"; };
 		373293191DAC1C7200DCBEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37DE08B11DAD83E6005ED51B /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		37DE08B31DAD8A91005ED51B /* ScoreKeeper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreKeeper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				373292FE1DAC1C7200DCBEC7 /* Assets.xcassets */,
 				373293001DAC1C7200DCBEC7 /* LaunchScreen.storyboard */,
 				373293031DAC1C7200DCBEC7 /* Info.plist */,
+				37DE08B11DAD83E6005ED51B /* Score.swift */,
+				37DE08B31DAD8A91005ED51B /* ScoreKeeper.swift */,
 			);
 			path = KigiEvanChristy;
 			sourceTree = "<group>";
@@ -263,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				373292FA1DAC1C7200DCBEC7 /* SecondViewController.swift in Sources */,
+				37DE08B41DAD8A91005ED51B /* ScoreKeeper.swift in Sources */,
 				373292F61DAC1C7200DCBEC7 /* AppDelegate.swift in Sources */,
+				37DE08B21DAD83E6005ED51B /* Score.swift in Sources */,
 				373292F81DAC1C7200DCBEC7 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +517,7 @@
 				3732931E1DAC1C7200DCBEC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3732931F1DAC1C7200DCBEC7 /* Build configuration list for PBXNativeTarget "KigiEvanChristyTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +526,7 @@
 				373293211DAC1C7200DCBEC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		373293221DAC1C7200DCBEC7 /* Build configuration list for PBXNativeTarget "KigiEvanChristyUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +535,7 @@
 				373293241DAC1C7200DCBEC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
