@@ -61,7 +61,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.96247224515464047" blue="0.84852761396498888" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" enabled="NO" title="Players" image="players" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Players" image="players" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="thePlayersStack" destination="nEI-14-WQN" id="UAw-Ah-4aS"/>
                     </connections>
