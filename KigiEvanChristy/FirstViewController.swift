@@ -20,6 +20,8 @@ class FirstViewController: UIViewController {
     
     var count = 1
     
+    var textCount = 0
+    
     var yPos: CGFloat = 0
     
     let spacing: CGFloat = 1
@@ -45,7 +47,7 @@ class FirstViewController: UIViewController {
         
         if players.count < playerMax {
             let player = UITextField(frame: CGRect(x: 0, y: yPos,
-                width: thePlayersStack.frame.width, height: textFieldHeight))
+                width: thePlayersStack.frame.width * 0.75, height: textFieldHeight))
             
             
             //player.backgroundColor =
@@ -56,7 +58,7 @@ class FirstViewController: UIViewController {
             player.textAlignment = .center
             
             let button = UIButton(frame: CGRect(x:player.frame.width, y: yPos,
-                width: 50, height: textFieldHeight))
+                width: thePlayersStack.frame.width * 0.25, height: textFieldHeight))
             
             button.setTitle("Add", for: .normal)
             button.setTitleColor(.blue, for: .normal)
@@ -74,12 +76,10 @@ class FirstViewController: UIViewController {
     }
     
     func buttonAction(sender: UIButton!) {
-        sender.backgroundColor = .green
-        print("Hello")
+        names.append(players[textCount].text!)
+        textCount += 1
+        print(names)
         
-        /*
-         
-        */
     }
 
 }
